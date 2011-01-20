@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenNIPythonWrapper", "OpenNIPythonWrapper.vcproj", "{029CAA07-C2F3-4C85-9B14-311F053223BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDBBAEFE-7080-4807-8979-67B5F2D57647} = {EDBBAEFE-7080-4807-8979-67B5F2D57647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PythonOutputStream", "..\..\..\PythonOutputStream\ProjectFiles\VS2008\PythonOutputStream.vcproj", "{EDBBAEFE-7080-4807-8979-67B5F2D57647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029CAA07-C2F3-4C85-9B14-311F053223BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{029CAA07-C2F3-4C85-9B14-311F053223BC}.Debug|Win32.Build.0 = Debug|Win32
+		{029CAA07-C2F3-4C85-9B14-311F053223BC}.Release|Win32.ActiveCfg = Release|Win32
+		{029CAA07-C2F3-4C85-9B14-311F053223BC}.Release|Win32.Build.0 = Release|Win32
+		{EDBBAEFE-7080-4807-8979-67B5F2D57647}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDBBAEFE-7080-4807-8979-67B5F2D57647}.Debug|Win32.Build.0 = Debug|Win32
+		{EDBBAEFE-7080-4807-8979-67B5F2D57647}.Release|Win32.ActiveCfg = Release|Win32
+		{EDBBAEFE-7080-4807-8979-67B5F2D57647}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

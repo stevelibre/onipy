@@ -1,0 +1,11 @@
+01 add support for NITE functionality
+
+02 Doxygenate the code
+
+03 test the binding under Python 3.x
+
+04 route the cout/cerr streams to PyOut, so that OpenNI logs will be visible from the Python console
+
+05 modify the sample code to use the Python unittest framwork
+
+06 make the Python code self-documenting by adding doc-strings to the binding
