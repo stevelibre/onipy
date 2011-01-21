@@ -1,4 +1,4 @@
-#summary Here the main TODO list for this project.
+#summary Here is the main TODO list for this project.
 
 = TODO =
 
