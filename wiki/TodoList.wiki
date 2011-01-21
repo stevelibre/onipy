@@ -1,0 +1,10 @@
+#summary Here the main TODO list for this project.
+
+= TODO =
+
+  # add support for NITE functionality  
+  # Doxygenate the code
+  # test the binding under Python 3.x
+  # route the cout/cerr streams to PyOut, so that OpenNI logs will be visible from the Python console
+  # modify the sample code to use the Python unittest framwork
+  # make the Python code self-documenting by adding doc-strings to the binding
