@@ -24,13 +24,7 @@
 #ifndef PYTHON_OUTPUT_STREAM_SINK_H
 #define PYTHON_OUTPUT_STREAM_SINK_H
 
-#include <iostream>
-#include <algorithm> 
-#include <iosfwd> 
-#include <boost/iostreams/categories.hpp> 
-#include <boost/iostreams/stream.hpp>
-#include <boost/format.hpp>
-#include <boost/python.hpp>
+// resolve collisions with between std::min/std::max and the min/max macros defined in windows.h
 
 #ifdef min
 #undef min
@@ -39,7 +33,15 @@
 #undef max
 #endif
 
-const int SIZE_STREAM_BUFFER = 1000;
+#include <iostream>
+#include <algorithm> 
+#include <iosfwd> 
+#include <boost/iostreams/categories.hpp> 
+#include <boost/iostreams/stream.hpp>
+#include <boost/format.hpp>
+#include <boost/python.hpp>
+
+const std::streamsize SIZE_STREAM_BUFFER = 1000;
 
 class PythonOutputStreamSink
 {

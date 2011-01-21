@@ -30,7 +30,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Constants
 
-const std::string OPENNI_WRAPPER_VERSION_STRING = "0.3 alpha";
+const std::string OPENNI_WRAPPER_VERSION_STRING = "0.3.1 alpha";
 
 #ifdef _DEBUG
 const std::string DEBUG_TAG = " [debug]";
