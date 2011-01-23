@@ -2,11 +2,11 @@
 
 = TODO =
 
-  # add support for NITE functionality  
+  # Add support for NITE functionality  
   # Doxygenate the code
-  # test the binding under Python 3.x
-  # route the cout/cerr streams to PyOut, so that OpenNI logs will be visible from the Python console
-  # modify the sample code to use the Python unittest framwork
-  # make the Python code self-documenting by adding doc-strings to the binding
-  # add an XCode project for building the library under Mac OS X and update the installation instructions accordingly.
-  # add a makefile for building the library under Linux and update the installation instructions accordingly.
+  # Test the binding under Python 3.x
+  # Route the cout/cerr streams to PyOut, so that OpenNI logs will be visible from the Python console
+  # Modify the sample code to use the Python unittest framework
+  # Make the Python code self-documenting by adding doc-strings to the binding
+  # Add an XCode project for building the library under Mac OS X and update the installation instructions accordingly.
+  # Add a makefile for building the library under Linux and update the installation instructions accordingly.
