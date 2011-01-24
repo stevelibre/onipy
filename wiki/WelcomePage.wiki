@@ -4,6 +4,9 @@
 
 OpenNI Python Wrapper or ONIPY is a Python binding for the excellent OpenNI API released by PrimeSense.
 
+= What can I do with it ? =
+OpenNI is a powerful API for building natural interfaces using a variety of sensors for input. This library is being actively used by researchers and other developers around the world to leverage the capabilities of new depth sensors like the Microsoft Kinect or the PrimeSense PrimeSensor.
+
 = Why is it useful ? =
 
 Python is probably one of the best languages for rapid prototyping and it is widely used both in the industry and academia. Python also enjoys a vast selection of third party libraries that expose a substantial array of functionality that ranges from numerical computing (NumPy) to computer vision (OpenCV) and of course games (PyGame). Combining Python with the exciting new possibilities offered by OpenNI and new compliant hardware like Microsoft Kinect can open up new avenues for creative experimentation.  
