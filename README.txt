@@ -43,7 +43,7 @@ Optional
 HOW TO BUILD
 Windows
 * Make sure that all dependencies are installed correctly
-* Remember to build Boost Python against the version of Python that you are planning to use!
+* Remember to build Boost Python against the version of Python that you are planning to use! Also make sure that both Boost and Python are built for the same architecture (don’t mix 32-bit and 64-bit version)
 * Define the following environment variables for the provided VS2008 project:
 o BOOST_ROOT: The path to the Boost libraries. Example: C:\Program Files\boost\boost_1_44
 o OPENNI_DIR: The path to the OpenNI library. Example: C:\Program Files\OpenNI
@@ -86,3 +86,5 @@ When you run the Visual Studio project (e.g. by pressing F5), A dialog pops up a
 I provided a .user file that should instruct Visual Studio to invoke your Python interpreter and run the test sample, but if you misplaced that file then Visual Studio will revert to the default debugging options, which don’t work for this project.
 I modified the code, but Python does not seem to have noticed.
 I set up the Visual Studio project, so that it copies the binding to the TestBench directory, where the sample code is located. However, in some circumstances, Visual Studio may not perform the copy (e.g. post-build events) during an incremental build. To resolve this either copy the pyd file manually from the Debug/Release directory to the TestBench directory, or perform a full rebuild.
+I get a ton of linker errors related to Boost Python in Visual Studio.
+Most likely you are using a 32-bit version of Boost with a 64-bit version of Python or vice versa. Make sure that both Boost and your installation of Python are built for the same architecture!
