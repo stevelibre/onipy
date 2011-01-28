@@ -1,8 +1,12 @@
 README for OpenNI Python Wrapper
 Created by Gabriele Nataneli (gamix)
-21 January 2011
+28 January 2011
 
 RELEASE NOTES
+V0.3.2 alpha
+* Added project files for XCode
+* Added support for Mac OS X
+
 V0.3.1 alpha 
 * Added project files for Visual Studio 2010
 * Tweaked PythonOutputStream to build under VS2010 

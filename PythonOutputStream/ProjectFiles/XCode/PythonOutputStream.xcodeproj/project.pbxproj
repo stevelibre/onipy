@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CCC78911BE381F006A8525 /* PythonOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CCC77611BE3740006A8525 /* PythonOutputStream.cpp */; };
+		00CCC78A11BE382C006A8525 /* PythonOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CCC77511BE3740006A8525 /* PythonOutputStream.h */; };
+		00CCC78B11BE382C006A8525 /* PythonOutputStreamManager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 00CCC77411BE3740006A8525 /* PythonOutputStreamManager.hpp */; };
+		00CCC78C11BE382C006A8525 /* PythonOutputStreamSink.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 00CCC77311BE3740006A8525 /* PythonOutputStreamSink.hpp */; };
+		00CCC78E11BE3848006A8525 /* libboost_python.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CCC78D11BE3848006A8525 /* libboost_python.dylib */; };
+		00CCC79011BE3870006A8525 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CCC78F11BE3870006A8525 /* Python.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00CCC77311BE3740006A8525 /* PythonOutputStreamSink.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PythonOutputStreamSink.hpp; path = ../../Source/PythonOutputStreamSink.hpp; sourceTree = SOURCE_ROOT; };
+		00CCC77411BE3740006A8525 /* PythonOutputStreamManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PythonOutputStreamManager.hpp; path = ../../Source/PythonOutputStreamManager.hpp; sourceTree = SOURCE_ROOT; };
+		00CCC77511BE3740006A8525 /* PythonOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PythonOutputStream.h; path = ../../Source/PythonOutputStream.h; sourceTree = SOURCE_ROOT; };
+		00CCC77611BE3740006A8525 /* PythonOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PythonOutputStream.cpp; path = ../../Source/PythonOutputStream.cpp; sourceTree = SOURCE_ROOT; };
+		00CCC77B11BE3755006A8525 /* PythonOutputStream.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = PythonOutputStream.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CCC78D11BE3848006A8525 /* libboost_python.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_python.dylib; path = /Library/Developer/boost_1_43_0/lib/libboost_python.dylib; sourceTree = "<absolute>"; };
+		00CCC78F11BE3870006A8525 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CCC77911BE3755006A8525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCC78E11BE3848006A8525 /* libboost_python.dylib in Frameworks */,
+				00CCC79011BE3870006A8525 /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CCC75C11BE370B006A8525 = {
+			isa = PBXGroup;
+			children = (
+				00CCC78D11BE3848006A8525 /* libboost_python.dylib */,
+				00CCC77211BE372A006A8525 /* Source */,
+				00CCC77C11BE3755006A8525 /* Products */,
+				00CCC78F11BE3870006A8525 /* Python.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		00CCC77211BE372A006A8525 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00CCC77311BE3740006A8525 /* PythonOutputStreamSink.hpp */,
+				00CCC77411BE3740006A8525 /* PythonOutputStreamManager.hpp */,
+				00CCC77511BE3740006A8525 /* PythonOutputStream.h */,
+				00CCC77611BE3740006A8525 /* PythonOutputStream.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		00CCC77C11BE3755006A8525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CCC77B11BE3755006A8525 /* PythonOutputStream.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00CCC77711BE3755006A8525 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCC78A11BE382C006A8525 /* PythonOutputStream.h in Headers */,
+				00CCC78B11BE382C006A8525 /* PythonOutputStreamManager.hpp in Headers */,
+				00CCC78C11BE382C006A8525 /* PythonOutputStreamSink.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00CCC77A11BE3755006A8525 /* PythonOutputStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CCC77F11BE3755006A8525 /* Build configuration list for PBXNativeTarget "PythonOutputStream" */;
+			buildPhases = (
+				00CCC77711BE3755006A8525 /* Headers */,
+				00CCC77811BE3755006A8525 /* Sources */,
+				00CCC77911BE3755006A8525 /* Frameworks */,
+				00FD438812F2D05A001F0E3F /* Copy Library */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythonOutputStream;
+			productName = PythonOutputStream;
+			productReference = 00CCC77B11BE3755006A8525 /* PythonOutputStream.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CCC75E11BE370B006A8525 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00CCC76111BE370B006A8525 /* Build configuration list for PBXProject "PythonOutputStream" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 00CCC75C11BE370B006A8525;
+			productRefGroup = 00CCC77C11BE3755006A8525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CCC77A11BE3755006A8525 /* PythonOutputStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FD438812F2D05A001F0E3F /* Copy Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $TARGET_BUILD_DIR/$TARGET_NAME.dylib $PROJECT_DIR/../../../Libraries/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CCC77811BE3755006A8525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCC78911BE381F006A8525 /* PythonOutputStream.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00CCC75F11BE370B006A8525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		00CCC76011BE370B006A8525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		00CCC77D11BE3755006A8525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(BOOST_ROOT)/include",
+					/Library/Frameworks/Python.framework/Headers,
+				);
+				INSTALL_PATH = .;
+				LIBRARY_SEARCH_PATHS = "$(BOOST_ROOT)/lib";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = PythonOutputStream;
+			};
+			name = Debug;
+		};
+		00CCC77E11BE3755006A8525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(BOOST_ROOT)/include",
+					/Library/Frameworks/Python.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(BOOST_ROOT)/lib";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = PythonOutputStream;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CCC76111BE370B006A8525 /* Build configuration list for PBXProject "PythonOutputStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CCC75F11BE370B006A8525 /* Debug */,
+				00CCC76011BE370B006A8525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CCC77F11BE3755006A8525 /* Build configuration list for PBXNativeTarget "PythonOutputStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CCC77D11BE3755006A8525 /* Debug */,
+				00CCC77E11BE3755006A8525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00CCC75E11BE370B006A8525 /* Project object */;
+}

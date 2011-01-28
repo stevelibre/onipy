@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EC0D5712F2B955000AB7E9 /* conversionHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EC092C12F2B80E000AB7E9 /* conversionHelpers.cpp */; };
+		00EC0D5812F2B955000AB7E9 /* OpenNIContextWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EC092E12F2B80E000AB7E9 /* OpenNIContextWrapper.cpp */; };
+		00EC0D5912F2B955000AB7E9 /* OpenNIDepthGeneratorWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EC093012F2B80E000AB7E9 /* OpenNIDepthGeneratorWrapper.cpp */; };
+		00EC0D5A12F2B955000AB7E9 /* OpenNIImageGeneratorWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EC093212F2B80E000AB7E9 /* OpenNIImageGeneratorWrapper.cpp */; };
+		00EC0D5B12F2B955000AB7E9 /* OpenNIImageMetaDataWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EC093412F2B80E000AB7E9 /* OpenNIImageMetaDataWrapper.cpp */; };
+		00EC0D5C12F2B964000AB7E9 /* conversionHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC092D12F2B80E000AB7E9 /* conversionHelpers.h */; };
+		00EC0D5D12F2B964000AB7E9 /* OpenNIContextWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC092F12F2B80E000AB7E9 /* OpenNIContextWrapper.h */; };
+		00EC0D5E12F2B964000AB7E9 /* OpenNIDepthGeneratorWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC093112F2B80E000AB7E9 /* OpenNIDepthGeneratorWrapper.h */; };
+		00EC0D5F12F2B964000AB7E9 /* OpenNIImageGeneratorWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC093312F2B80E000AB7E9 /* OpenNIImageGeneratorWrapper.h */; };
+		00EC0D6012F2B964000AB7E9 /* OpenNIImageMetaDataWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC093512F2B80E000AB7E9 /* OpenNIImageMetaDataWrapper.h */; };
+		00EC0D6112F2B964000AB7E9 /* OpenNIWrapperTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC093612F2B80E000AB7E9 /* OpenNIWrapperTypes.h */; };
+		00EC0D6212F2B964000AB7E9 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC093812F2B80E000AB7E9 /* wrapper.h */; };
+		00EC0D6312F2B970000AB7E9 /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EC093712F2B80E000AB7E9 /* wrapper.cpp */; };
+		00EC0D7312F2BABC000AB7E9 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EC0D7212F2BABC000AB7E9 /* Python.framework */; };
+		00EC0D7512F2BB07000AB7E9 /* libboost_python.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EC0D7412F2BB07000AB7E9 /* libboost_python.dylib */; };
+		00FD433112F2C61B001F0E3F /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD433012F2C61B001F0E3F /* libOpenNI.dylib */; };
+		00FD436512F2C98E001F0E3F /* libboost_python.dylib in Copy Dependencies */ = {isa = PBXBuildFile; fileRef = 00EC0D7412F2BB07000AB7E9 /* libboost_python.dylib */; };
+		00FD439612F2D0CC001F0E3F /* PythonOutputStream.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD439512F2D0CC001F0E3F /* PythonOutputStream.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00FD434F12F2C8E4001F0E3F /* Copy Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PROJECT_DIR)/../../../Libraries";
+			dstSubfolderSpec = 0;
+			files = (
+				00FD436512F2C98E001F0E3F /* libboost_python.dylib in Copy Dependencies */,
+			);
+			name = "Copy Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00EC092C12F2B80E000AB7E9 /* conversionHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = conversionHelpers.cpp; path = ../../Source/conversionHelpers.cpp; sourceTree = SOURCE_ROOT; };
+		00EC092D12F2B80E000AB7E9 /* conversionHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conversionHelpers.h; path = ../../Source/conversionHelpers.h; sourceTree = SOURCE_ROOT; };
+		00EC092E12F2B80E000AB7E9 /* OpenNIContextWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenNIContextWrapper.cpp; path = ../../Source/OpenNIContextWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		00EC092F12F2B80E000AB7E9 /* OpenNIContextWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenNIContextWrapper.h; path = ../../Source/OpenNIContextWrapper.h; sourceTree = SOURCE_ROOT; };
+		00EC093012F2B80E000AB7E9 /* OpenNIDepthGeneratorWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenNIDepthGeneratorWrapper.cpp; path = ../../Source/OpenNIDepthGeneratorWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		00EC093112F2B80E000AB7E9 /* OpenNIDepthGeneratorWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenNIDepthGeneratorWrapper.h; path = ../../Source/OpenNIDepthGeneratorWrapper.h; sourceTree = SOURCE_ROOT; };
+		00EC093212F2B80E000AB7E9 /* OpenNIImageGeneratorWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenNIImageGeneratorWrapper.cpp; path = ../../Source/OpenNIImageGeneratorWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		00EC093312F2B80E000AB7E9 /* OpenNIImageGeneratorWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenNIImageGeneratorWrapper.h; path = ../../Source/OpenNIImageGeneratorWrapper.h; sourceTree = SOURCE_ROOT; };
+		00EC093412F2B80E000AB7E9 /* OpenNIImageMetaDataWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenNIImageMetaDataWrapper.cpp; path = ../../Source/OpenNIImageMetaDataWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		00EC093512F2B80E000AB7E9 /* OpenNIImageMetaDataWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenNIImageMetaDataWrapper.h; path = ../../Source/OpenNIImageMetaDataWrapper.h; sourceTree = SOURCE_ROOT; };
+		00EC093612F2B80E000AB7E9 /* OpenNIWrapperTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenNIWrapperTypes.h; path = ../../Source/OpenNIWrapperTypes.h; sourceTree = SOURCE_ROOT; };
+		00EC093712F2B80E000AB7E9 /* wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wrapper.cpp; path = ../../Source/wrapper.cpp; sourceTree = SOURCE_ROOT; };
+		00EC093812F2B80E000AB7E9 /* wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wrapper.h; path = ../../Source/wrapper.h; sourceTree = SOURCE_ROOT; };
+		00EC0D5212F2B90A000AB7E9 /* OpenNIPythonWrapper.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OpenNIPythonWrapper.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EC0D7212F2BABC000AB7E9 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		00EC0D7412F2BB07000AB7E9 /* libboost_python.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_python.dylib; path = /Library/Developer/boost_1_43_0/lib/libboost_python.dylib; sourceTree = "<absolute>"; };
+		00FD433012F2C61B001F0E3F /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI.dylib; path = /Library/Developer/OpenNI_1_0_0_25/Lib/libOpenNI.dylib; sourceTree = "<absolute>"; };
+		00FD439512F2D0CC001F0E3F /* PythonOutputStream.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = PythonOutputStream.dylib; path = ../../../Libraries/PythonOutputStream.dylib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00EC0D5012F2B90A000AB7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EC0D7312F2BABC000AB7E9 /* Python.framework in Frameworks */,
+				00EC0D7512F2BB07000AB7E9 /* libboost_python.dylib in Frameworks */,
+				00FD433112F2C61B001F0E3F /* libOpenNI.dylib in Frameworks */,
+				00FD439612F2D0CC001F0E3F /* PythonOutputStream.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EC091512F2B7CF000AB7E9 = {
+			isa = PBXGroup;
+			children = (
+				00FD439512F2D0CC001F0E3F /* PythonOutputStream.dylib */,
+				00EC092B12F2B7F4000AB7E9 /* Source */,
+				00EC0D5312F2B90A000AB7E9 /* Products */,
+				00EC0D7212F2BABC000AB7E9 /* Python.framework */,
+				00EC0D7412F2BB07000AB7E9 /* libboost_python.dylib */,
+				00FD433012F2C61B001F0E3F /* libOpenNI.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+		00EC092B12F2B7F4000AB7E9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00EC092C12F2B80E000AB7E9 /* conversionHelpers.cpp */,
+				00EC092D12F2B80E000AB7E9 /* conversionHelpers.h */,
+				00EC092E12F2B80E000AB7E9 /* OpenNIContextWrapper.cpp */,
+				00EC092F12F2B80E000AB7E9 /* OpenNIContextWrapper.h */,
+				00EC093012F2B80E000AB7E9 /* OpenNIDepthGeneratorWrapper.cpp */,
+				00EC093112F2B80E000AB7E9 /* OpenNIDepthGeneratorWrapper.h */,
+				00EC093212F2B80E000AB7E9 /* OpenNIImageGeneratorWrapper.cpp */,
+				00EC093312F2B80E000AB7E9 /* OpenNIImageGeneratorWrapper.h */,
+				00EC093412F2B80E000AB7E9 /* OpenNIImageMetaDataWrapper.cpp */,
+				00EC093512F2B80E000AB7E9 /* OpenNIImageMetaDataWrapper.h */,
+				00EC093612F2B80E000AB7E9 /* OpenNIWrapperTypes.h */,
+				00EC093712F2B80E000AB7E9 /* wrapper.cpp */,
+				00EC093812F2B80E000AB7E9 /* wrapper.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		00EC0D5312F2B90A000AB7E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00EC0D5212F2B90A000AB7E9 /* OpenNIPythonWrapper.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00EC0D4E12F2B90A000AB7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EC0D5C12F2B964000AB7E9 /* conversionHelpers.h in Headers */,
+				00EC0D5D12F2B964000AB7E9 /* OpenNIContextWrapper.h in Headers */,
+				00EC0D5E12F2B964000AB7E9 /* OpenNIDepthGeneratorWrapper.h in Headers */,
+				00EC0D5F12F2B964000AB7E9 /* OpenNIImageGeneratorWrapper.h in Headers */,
+				00EC0D6012F2B964000AB7E9 /* OpenNIImageMetaDataWrapper.h in Headers */,
+				00EC0D6112F2B964000AB7E9 /* OpenNIWrapperTypes.h in Headers */,
+				00EC0D6212F2B964000AB7E9 /* wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00EC0D5112F2B90A000AB7E9 /* OpenNIPythonWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EC0D5612F2B90B000AB7E9 /* Build configuration list for PBXNativeTarget "OpenNIPythonWrapper" */;
+			buildPhases = (
+				00EC0D4E12F2B90A000AB7E9 /* Headers */,
+				00EC0D4F12F2B90A000AB7E9 /* Sources */,
+				00EC0D5012F2B90A000AB7E9 /* Frameworks */,
+				00FD438012F2D00D001F0E3F /* Copy Library */,
+				00FD434F12F2C8E4001F0E3F /* Copy Dependencies */,
+				00FD433D12F2C6EC001F0E3F /* Deploy Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenNIPythonWrapper;
+			productName = OpenNIPythonWrapper;
+			productReference = 00EC0D5212F2B90A000AB7E9 /* OpenNIPythonWrapper.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00EC091712F2B7CF000AB7E9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00EC091A12F2B7CF000AB7E9 /* Build configuration list for PBXProject "OpenNIPythonWrapper" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 00EC091512F2B7CF000AB7E9;
+			productRefGroup = 00EC0D5312F2B90A000AB7E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00EC0D5112F2B90A000AB7E9 /* OpenNIPythonWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FD433D12F2C6EC001F0E3F /* Deploy Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Deploy Libraries";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $PROJECT_DIR/../../../Libraries/*.dylib $PROJECT_DIR/../../TestBench/\ncp $PROJECT_DIR/../../../Libraries/*.so $PROJECT_DIR/../../TestBench/";
+		};
+		00FD438012F2D00D001F0E3F /* Copy Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $TARGET_BUILD_DIR/$TARGET_NAME.so $PROJECT_DIR/../../../Libraries/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00EC0D4F12F2B90A000AB7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EC0D5712F2B955000AB7E9 /* conversionHelpers.cpp in Sources */,
+				00EC0D5812F2B955000AB7E9 /* OpenNIContextWrapper.cpp in Sources */,
+				00EC0D5912F2B955000AB7E9 /* OpenNIDepthGeneratorWrapper.cpp in Sources */,
+				00EC0D5A12F2B955000AB7E9 /* OpenNIImageGeneratorWrapper.cpp in Sources */,
+				00EC0D5B12F2B955000AB7E9 /* OpenNIImageMetaDataWrapper.cpp in Sources */,
+				00EC0D6312F2B970000AB7E9 /* wrapper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00EC091812F2B7CF000AB7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		00EC091912F2B7CF000AB7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		00EC0D5412F2B90B000AB7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				HEADER_SEARCH_PATHS = (
+					"$(BOOST_ROOT)/include",
+					/Library/Frameworks/Python.framework/Headers,
+					"$(OPENNI_DIR)/Include",
+					$PROJECT_DIR/../../../PythonOutputStream/Source,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_DEVELOPER_DIR)/boost_1_43_0/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(LOCAL_DEVELOPER_DIR)/OpenNI_1_0_0_25/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../Libraries\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = OpenNIPythonWrapper;
+			};
+			name = Debug;
+		};
+		00EC0D5512F2B90B000AB7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(BOOST_ROOT)/include",
+					/Library/Frameworks/Python.framework/Headers,
+					"$(OPENNI_DIR)/Include",
+					$PROJECT_DIR/../../../PythonOutputStream/Source,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(LOCAL_DEVELOPER_DIR)/boost_1_43_0/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(LOCAL_DEVELOPER_DIR)/OpenNI_1_0_0_25/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../Libraries\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = OpenNIPythonWrapper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EC091A12F2B7CF000AB7E9 /* Build configuration list for PBXProject "OpenNIPythonWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EC091812F2B7CF000AB7E9 /* Debug */,
+				00EC091912F2B7CF000AB7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00EC0D5612F2B90B000AB7E9 /* Build configuration list for PBXNativeTarget "OpenNIPythonWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EC0D5412F2B90B000AB7E9 /* Debug */,
+				00EC0D5512F2B90B000AB7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00EC091712F2B7CF000AB7E9 /* Project object */;
+}

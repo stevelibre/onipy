@@ -58,6 +58,11 @@ if FLAG_SETUP_ENVIRONMENT == True:
 		EXTENDED_PATH_VARIABLE += os.getenv( "PATH" )
 	
 		os.putenv( "PATH", EXTENDED_PATH_VARIABLE )
+		
+	elif platform.system() == 'Darwin':
+		# make sure that libboost_python.dylib is in the same dyrectory as this
+		# script
+		pass
 			
 	else:
 		raise "ERROR: the current platform is not supported yet!"	
@@ -359,7 +364,7 @@ def main():
 	print "Copyright (C) 2011 Gabriele Nataneli (gamix)"
 	print ""
 	
-	#	runUnitTest( unitTestConstants )
+	# runUnitTest( unitTestConstants )
 	runUnitTest( unitTestBasicInitialization )
 	# runUnitTest( unitTestImageGenerator )
 	# runUnitTest( unitTestDepthGenerator )
