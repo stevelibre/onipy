@@ -10,3 +10,4 @@
   # Make the Python code self-documenting by adding doc-strings to the binding
   # ~~Add an XCode project for building the library under Mac OS X and update the installation instructions accordingly.~~
   # Add a makefile for building the library under Linux and update the installation instructions accordingly.
+  # Write a distutil setup script to simplify the installation process across platforms
