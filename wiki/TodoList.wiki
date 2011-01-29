@@ -8,5 +8,5 @@
   # Route the cout/cerr streams to PyOut, so that OpenNI logs will be visible from the Python console
   # Modify the sample code to use the Python unittest framework
   # Make the Python code self-documenting by adding doc-strings to the binding
-  # Add an XCode project for building the library under Mac OS X and update the installation instructions accordingly.
+  # ~~Add an XCode project for building the library under Mac OS X and update the installation instructions accordingly.~~
   # Add a makefile for building the library under Linux and update the installation instructions accordingly.
