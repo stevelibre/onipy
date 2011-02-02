@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenNIPythonWrapper", "OpenNIPythonWrapper.vcproj", "{029CAA07-C2F3-4C85-9B14-311F053223BC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenNIPythonWrapper", "..\..\..\OpenNIPythonWrapper\ProjectFiles\VS2008\OpenNIPythonWrapper.vcproj", "{029CAA07-C2F3-4C85-9B14-311F053223BC}"
 	ProjectSection(ProjectDependencies) = postProject
 		{EDBBAEFE-7080-4807-8979-67B5F2D57647} = {EDBBAEFE-7080-4807-8979-67B5F2D57647}
 	EndProjectSection

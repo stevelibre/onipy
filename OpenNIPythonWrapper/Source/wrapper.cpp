@@ -76,13 +76,14 @@ BOOST_PYTHON_MODULE( OpenNIPythonWrapper )
 		.value("XN_NODE_TYPE_HANDS", XN_NODE_TYPE_HANDS )
 		.value("XN_NODE_TYPE_CODEC", XN_NODE_TYPE_CODEC )
 		.export_values()
-		;
+	;
 
 
 	////////////////////////////////////////////////////////////////////////////
 	// global functions
 
 	def( "version", version );
+
 
 	////////////////////////////////////////////////////////////////////////////
 	// class OpenNIContext

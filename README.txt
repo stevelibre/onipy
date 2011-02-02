@@ -1,8 +1,13 @@
 README for OpenNI Python Wrapper
 Created by Gabriele Nataneli (gamix)
-28 January 2011
+2 February 2011
 
 RELEASE NOTES
+V0.4
+* Added support for Linux (tested under Ubuntu 10.10)
+* Addded makefile for Linux
+* Moved all project files to a top level ProjectFiles directory based on platform
+* OpenNI initialization now reports more informative errors info 
 V0.3.2 alpha
 * Added project files for XCode
 * Added support for Mac OS X
@@ -21,7 +26,7 @@ o Serve as a starting point for other open source developers to add more functio
 
 
 ADDITIONAL NOTES
-* I provided a project files for Visual Studio 2008 and 2010 that should simplify the build process in: OpenNIPythonWrapper/ProjectFiles. Make sure you have all the required dependencies and environment variables set correctly for the project to build (See the sections below).
+* I provided a project files for Visual Studio 2008 and 2010, XCode and a Linux makefile that should simplify the build process in: ProjectFiles. Make sure you have all the required dependencies and environment variables set correctly for the project to build (See the sections below).
 * If you want to use another compiler or development environment you are on your own for now!
 * I haven’t tested the project with Visual Studio Express 2010, but I am pretty sure that it should work fine. It’s free, so please go ahead and let me know how it goes.
 * For Python development, consider using Eclipse with the excellent PyDev Add-In. For one thing it has a really powerful debugger for Python.
@@ -41,7 +46,7 @@ Mandatory
 Optional
 * Python Imaging Library
 * OpenCV Python Binding
-* Visual Studio 2008/2010 to use the provided project
+* [Windows]Visual Studio 2008/2010 to use the provided project 
 
 
 HOW TO BUILD
@@ -53,6 +58,44 @@ o BOOST_ROOT: The path to the Boost libraries. Example: C:\Program Files\boost\b
 o OPENNI_DIR: The path to the OpenNI library. Example: C:\Program Files\OpenNI
 o PYTHON_DIR: The path to your Python installation. Example: C:\Python26
 o Build the project.
+MAC OS X
+* Make sure that all dependencies are installed correctly
+* Remember to build Boost Python against the version of Python that you are planning to use! Use otool –L to inspect the dylib files if necessary.
+* Define the following environment variables for the provided XCode project:
+o BOOST_ROOT: The path to the Boost libraries. Example: /Library/Developer/boost_1_45_0
+o OPENNI_DIR: The path to the OpenNI library. Example: /Library/Developer/boost_1_43_0
+o Make sure the XCode project can find all dependencies:
+* Python.Framework
+* libboost_python.dylib
+* libOpenNI.dylib
+o Build the project.
+
+Linux
+* Install Boost Python:
+   http://www.boost.org/doc/libs/1_45_0/libs/python/doc/index.html
+* [Ubuntu] sudo apt-get install boost-build libboost-dev libboost-python-dev 
+* Install SensorKinect driver:
+
+ https://github.com/avin2/SensorKinect/blob/unstable/README)
+
+* Install OpenNI:
+
+http://www.openni.org/downloadfiles/openni-binaries/20-latest-unstable
+
+Use the latest unstable version [used OpenNI-Bin-Linux64-v1.0.0.25.tar.bz2]
+
+mkdir ~/openni && mkdir ~/openni/openni
+tar xjvf OpenNI-Bin-Linux64-v1.0.0.25.tar.bz2 -C ~/openni/openni
+cd ~/openni/openni
+sudo ./install.sh
+(edit install.sh if not using Ubuntu)
+
+* Install OpenNI Python wrapper
+
+In ONIPY/ProjectFiles/Linux:
+
+make (edit Makefile if not using Ubuntu with Python 2.6)
+sudo make install
 
 
 

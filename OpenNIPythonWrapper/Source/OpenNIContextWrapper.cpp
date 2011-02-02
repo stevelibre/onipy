@@ -40,7 +40,10 @@ XnStatus OpenNIContextWrapper::InitFromXmlFile(
 	if( returnCode == XN_STATUS_OK )
 		PyCout << "OpenNI was initialized successfully" << std::endl;
 	else
-		PyCout << "OpenNI failed to initialize" << std::endl;
+	{
+		PyCout << "OpenNI failed to initialize: " << 
+			xnGetStatusName( returnCode ) << std::endl;
+	}
 #endif
 	
 	return returnCode;
