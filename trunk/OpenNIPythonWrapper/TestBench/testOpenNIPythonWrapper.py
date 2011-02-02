@@ -5,6 +5,7 @@ Copyright (C) 2011 Gabriele Nataneli (gamix)
 
 """
 
+
 #-------------------------------------------------------------------------------
 # flags
 
@@ -64,6 +65,10 @@ if FLAG_SETUP_ENVIRONMENT == True:
 		# script
 		pass
 			
+	elif platform.system() == 'Linux':
+		# Linux: it's assumed that the library paths are already
+		# taken care of in the environment, so we do nothing
+		pass
 	else:
 		raise "ERROR: the current platform is not supported yet!"	
 

@@ -139,6 +139,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
 				AdditionalDependencies="openNI.lib"
 				OutputFile="$(OutDir)\$(ProjectName).pyd"
 				LinkIncremental="1"

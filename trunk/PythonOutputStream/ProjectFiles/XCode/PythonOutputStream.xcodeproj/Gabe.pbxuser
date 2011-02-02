@@ -1,6 +1,6 @@
 // !$*UTF8*$!
 {
-	00AE192B12F2E20400E986D7 /* PBXTextBookmark */ = {
+	009468C212F9F549003B1809 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 00CCC77511BE3740006A8525 /* PythonOutputStream.h */;
 		name = "PythonOutputStream.h: 8";
@@ -88,15 +88,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317907450;
-			PBXWorkspaceStateSaveDate = 317907450;
+			PBXPerProjectTemplateStateSaveDate = 318371142;
+			PBXWorkspaceStateSaveDate = 318371142;
 		};
 		perUserProjectItems = {
-			00AE192B12F2E20400E986D7 /* PBXTextBookmark */ = 00AE192B12F2E20400E986D7 /* PBXTextBookmark */;
-			00CCC79911BE3937006A8525 = 00CCC79911BE3937006A8525 /* PBXTextBookmark */;
-			00CCC7B011BE39EC006A8525 = 00CCC7B011BE39EC006A8525 /* PBXTextBookmark */;
-			00EC0D7C12F2C23C000AB7E9 = 00EC0D7C12F2C23C000AB7E9 /* PBXTextBookmark */;
-			00FD438F12F2D0AE001F0E3F = 00FD438F12F2D0AE001F0E3F /* PBXTextBookmark */;
+			009468C212F9F549003B1809 /* PBXTextBookmark */ = 009468C212F9F549003B1809 /* PBXTextBookmark */;
+			00CCC79911BE3937006A8525 /* PBXTextBookmark */ = 00CCC79911BE3937006A8525 /* PBXTextBookmark */;
+			00FD438F12F2D0AE001F0E3F /* PBXTextBookmark */ = 00FD438F12F2D0AE001F0E3F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 00CCC76211BE370B006A8525 /* Source Control */;
 		userBuildSettings = {
@@ -142,26 +140,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 130;
-		vrLoc = 0;
-	};
-	00CCC7B011BE39EC006A8525 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00CCC77511BE3740006A8525 /* PythonOutputStream.h */;
-		name = "PythonOutputStream.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 141;
-		vrLoc = 0;
-	};
-	00EC0D7C12F2C23C000AB7E9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00CCC77511BE3740006A8525 /* PythonOutputStream.h */;
-		name = "PythonOutputStream.h: 8";
-		rLen = 0;
-		rLoc = 599;
-		rType = 0;
-		vrLen = 1834;
 		vrLoc = 0;
 	};
 	00FD438F12F2D0AE001F0E3F /* PBXTextBookmark */ = {

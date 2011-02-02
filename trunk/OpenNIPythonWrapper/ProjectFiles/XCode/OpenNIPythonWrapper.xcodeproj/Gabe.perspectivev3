@@ -267,15 +267,11 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>00EC091512F2B7CF000AB7E9</string>
-								<string>00EC092B12F2B7F4000AB7E9</string>
-								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>2</integer>
-									<integer>0</integer>
+									<integer>7</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -312,7 +308,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>00EC091F12F2B7D5000AB7E9</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>OpenNIWrapperTypes.h</string>
+								<string>wrapper.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,17 +316,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>00EC092012F2B7D5000AB7E9</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>OpenNIWrapperTypes.h</string>
+										<string>wrapper.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>00AE194B12F2E30000E986D7</string>
+										<string>00A7712F12FA04C700514C33</string>
 										<key>history</key>
 										<array>
 											<string>00EC0D6B12F2B9C9000AB7E9</string>
 											<string>00EC0D6C12F2B9C9000AB7E9</string>
 											<string>00EC0D8112F2C23D000AB7E9</string>
-											<string>00FD43A112F2D29C001F0E3F</string>
+											<string>009468CF12F9FE04003B1809</string>
+											<string>009468D112F9FE04003B1809</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,18 +341,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {692, 257}}</string>
+								<string>{{0, 0}, {692, 233}}</string>
 								<key>RubberWindowFrame</key>
 								<string>307 212 1017 634 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>257pt</string>
+							<string>233pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>331pt</string>
+							<string>355pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -369,7 +366,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {692, 304}}</string>
+										<string>{{10, 27}, {692, 328}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -423,7 +420,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {692, 304}}</string>
+										<string>{{10, 27}, {692, 328}}</string>
 										<key>RubberWindowFrame</key>
 										<string>307 212 1017 634 0 0 1440 878 </string>
 									</dict>
@@ -453,11 +450,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>00AE193C12F2E22700E986D7</string>
+				<string>00A7713012FA04C700514C33</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>00AE193D12F2E22700E986D7</string>
+				<string>00A7713112FA04C700514C33</string>
 				<string>00EC091F12F2B7D5000AB7E9</string>
-				<string>00AE193E12F2E22700E986D7</string>
+				<string>00A7713212FA04C700514C33</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -627,7 +624,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/Gabe/Documents/Development/KINECT/OpenSourceReleases/Versioned/ONIPY/onipy/OpenNIPythonWrapper/ProjectFiles/XCode/OpenNIPythonWrapper.xcodeproj</string>
+		<string>/Users/Gabe/Documents/Development/KINECT/Wrappers/Python/OpenNIPythonWrapper/ProjectFiles/XCode/OpenNIPythonWrapper.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>307 212 1017 634 0 0 1440 878 </string>

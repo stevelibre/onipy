@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		00010CAA12F9EC2400C07CD9 /* BuildOpenNIPythonWrapper */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 00010CB312F9EC5E00C07CD9 /* Build configuration list for PBXAggregateTarget "BuildOpenNIPythonWrapper" */;
+			buildPhases = (
+			);
+			dependencies = (
+				00010CAE12F9EC3600C07CD9 /* PBXTargetDependency */,
+				00010CB012F9EC3F00C07CD9 /* PBXTargetDependency */,
+			);
+			name = BuildOpenNIPythonWrapper;
+			productName = BuildOpenNIPythonWrapper;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		00010C9C12F9EBF000C07CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00010C9512F9EBF000C07CD9 /* OpenNIPythonWrapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00EC0D5212F2B90A000AB7E9;
+			remoteInfo = OpenNIPythonWrapper;
+		};
+		00010CA712F9EC0200C07CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00010CA012F9EC0200C07CD9 /* PythonOutputStream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00CCC77B11BE3755006A8525;
+			remoteInfo = PythonOutputStream;
+		};
+		00010CAD12F9EC3600C07CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00010CA012F9EC0200C07CD9 /* PythonOutputStream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CCC77A11BE3755006A8525;
+			remoteInfo = PythonOutputStream;
+		};
+		00010CAF12F9EC3F00C07CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00010C9512F9EBF000C07CD9 /* OpenNIPythonWrapper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EC0D5112F2B90A000AB7E9;
+			remoteInfo = OpenNIPythonWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00010C9512F9EBF000C07CD9 /* OpenNIPythonWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OpenNIPythonWrapper.xcodeproj; path = ../../../OpenNIPythonWrapper/ProjectFiles/XCode/OpenNIPythonWrapper.xcodeproj; sourceTree = SOURCE_ROOT; };
+		00010CA012F9EC0200C07CD9 /* PythonOutputStream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PythonOutputStream.xcodeproj; path = ../../../PythonOutputStream/ProjectFiles/XCode/PythonOutputStream.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00010C7E12F9EBAC00C07CD9 = {
+			isa = PBXGroup;
+			children = (
+				00010CA012F9EC0200C07CD9 /* PythonOutputStream.xcodeproj */,
+				00010C9512F9EBF000C07CD9 /* OpenNIPythonWrapper.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		00010C9612F9EBF000C07CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00010C9D12F9EBF000C07CD9 /* OpenNIPythonWrapper.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00010CA112F9EC0200C07CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00010CA812F9EC0200C07CD9 /* PythonOutputStream.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		00010C8012F9EBAC00C07CD9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00010C8312F9EBAC00C07CD9 /* Build configuration list for PBXProject "OpenNIPythonWrapperProject" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 00010C7E12F9EBAC00C07CD9;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 00010C9612F9EBF000C07CD9 /* Products */;
+					ProjectRef = 00010C9512F9EBF000C07CD9 /* OpenNIPythonWrapper.xcodeproj */;
+				},
+				{
+					ProductGroup = 00010CA112F9EC0200C07CD9 /* Products */;
+					ProjectRef = 00010CA012F9EC0200C07CD9 /* PythonOutputStream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				00010CAA12F9EC2400C07CD9 /* BuildOpenNIPythonWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		00010C9D12F9EBF000C07CD9 /* OpenNIPythonWrapper.so */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = OpenNIPythonWrapper.so;
+			remoteRef = 00010C9C12F9EBF000C07CD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00010CA812F9EC0200C07CD9 /* PythonOutputStream.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = PythonOutputStream.dylib;
+			remoteRef = 00010CA712F9EC0200C07CD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		00010CAE12F9EC3600C07CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PythonOutputStream;
+			targetProxy = 00010CAD12F9EC3600C07CD9 /* PBXContainerItemProxy */;
+		};
+		00010CB012F9EC3F00C07CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenNIPythonWrapper;
+			targetProxy = 00010CAF12F9EC3F00C07CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00010C8112F9EBAC00C07CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		00010C8212F9EBAC00C07CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		00010CAB12F9EC2400C07CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = BuildOpenNIPythonWrapper;
+			};
+			name = Debug;
+		};
+		00010CAC12F9EC2400C07CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = BuildOpenNIPythonWrapper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00010C8312F9EBAC00C07CD9 /* Build configuration list for PBXProject "OpenNIPythonWrapperProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00010C8112F9EBAC00C07CD9 /* Debug */,
+				00010C8212F9EBAC00C07CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00010CB312F9EC5E00C07CD9 /* Build configuration list for PBXAggregateTarget "BuildOpenNIPythonWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00010CAB12F9EC2400C07CD9 /* Debug */,
+				00010CAC12F9EC2400C07CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00010C8012F9EBAC00C07CD9 /* Project object */;
+}
